@@ -32,11 +32,11 @@ for( let i=0;i<n;i++){
         
         switch(alienName){
             case "Ghostfreak":
-                let gfAudio = new Audio("audio/ghostfreak.m4a");
+                let gfAudio = new Audio("./audio/ghostfreak.m4a");
                 gfAudio.play();
                 break;
             case "Cannonbolt":
-                let cbAudio = new Audio("/audio/canonbolt.m4a");
+                let cbAudio = new Audio("./audio/canonbolt.m4a");
                 cbAudio.play();
                 break;
             case "Wildvine":
