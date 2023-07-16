@@ -16,9 +16,10 @@ button.addEventListener("click", function given(){
     score = test();
     let htAudio = new Audio("./audio/Hero_time.m4a");
     htAudio.play();
-    alterText= text.textContent = "You are a "+score+"% resemblance of the chosen Alien🔥. Don't forget to explore your Ultimate Powers "+input.value+ "!!";
+    // alterText= 
+        text.textContent = "You are a "+score+"% resemblance of the chosen Alien🔥. Don't forget to explore your Ultimate Powers "+input.value+ "!!";
     score=0;
-    return alterText;
+    // return alterText;
     }
     else{
         alert("Please enter a valid name!");
